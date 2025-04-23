@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base Apparel Coming Soon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styleesheet.css" />
+  </head>
+  <body>
+    <section class="base-apparel">
+      <div class="base-apparel__logo">
+        <div class="logo__circle"></div>
+        <h2 class="logo__text">
+          base<br />
+          apparel
+        </h2>
+      </div>
+
+      <div class="base-apparel__main">
+        <div class="base-apparel__cta">
+          <h1 class="cta__title">
+            <span class="title__first-part title--color-#CE9898">we're</span>
+            <span class="title__second-part title--color-#423A3A"
+              >coming soon</span
+            >
+          </h1>
+
+          <p class="cta__description">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+
+          <form novalidate action="" class="cta__form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              class="form__input"
+            />
+
+            <img src="./ASSETS/svgs/error--icon.svg" alt="error-icon..." class="form__error-icon">
+          
+            <button type="submit" class="form__submit-btn">
+              <img
+                src="./ASSETS/svgs/chevron-right--icon.svg"
+                alt="submit..."
+              />
+            </button>
+            <span class="form__error-msg">Please provide a valid email</span>
+          </form>
+        </div>
+
+        <div class="base-apparel__model">
+          <img src="./ASSETS/images/model.png" alt="model image..." />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
