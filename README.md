@@ -12,6 +12,6 @@ The layout adjusts to different screen sizes, ensuring a seamless experience acr
 
 ## Visit the Webpage
 
-To view the live version of the webpage, [click here]().
+To view the live version of the webpage, [click here](https://base-aparel-coming-soon.netlify.app/).
 
-![Base Apparel Coming Soon Page]()
+![Base Apparel Coming Soon Page](./Base%20Apparel%20Coming%20Soon.jpg)
